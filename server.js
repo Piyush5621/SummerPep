@@ -2,6 +2,7 @@ import express from "express"
 import 'dotenv/config'
 import mongoose from 'mongoose'
 import Course from './app.js'
+import User from './user.js'
 
 const app = express()
 app.use(express.json())
